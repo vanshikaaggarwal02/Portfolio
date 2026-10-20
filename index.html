@@ -161,7 +161,7 @@
     <h1>Vanshika Aggarwal</h1>
     <p class="prompt"><b>$</b> cat role.txt</p>
     <p class="output">Software engineer @ JPMorgan Chase<span class="cursor" aria-hidden="true"></span></p>
-    <p class="lede">I build access management platforms in Java and Spring Boot, and I use AI to ship them faster.</p>
+    <p class="lede">I build access-management platforms and AI-powered engineering tools with Java, Spring Boot, and React.</p>
     <p class="sub">Based in Bengaluru. B.Tech in Electronics &amp; Computer Engineering, Thapar Institute, 2024.</p>
     <div class="actions">
       <a class="btn primary" href="#experience">open experience</a>
@@ -186,11 +186,10 @@
           <h4>Platform engineering and core CertifyNow</h4>
           <ul>
             <li>Automated about 20,000 manager reassignments per certification cycle with Java and Spring Boot REST services. This removed manual database fixes and cut employee notifications by about 20%.</li>
-            <li>Led the UI 1.0 to UI 2.0 migration for certifiers reviewing 80+ accesses, including 50+ PR reviews for the vendor team and structured codebase onboarding.</li>
-            <li>Integrated HR (WIS), GEI and ServiceNow APIs with validation and reconciliation logic, and migrated employee transfer ingestion from GEI to WIS.</li>
-            <li>Moved 35+ service repositories to Dynatrace, standardizing monitoring and shortening root-cause analysis during production incidents.</li>
+            <li>Led the UI 1.0 to UI 2.0 migration for certifiers reviewing 80k+ accesses, including vendor governance through 50+ PR reviews and structured codebase onboarding.</li>
+            <li>Migrated observability across 35+ service repositories to Dynatrace, standardizing monitoring and reducing production root-cause analysis from 6 hours to a few minutes.</li>
             <li>Resolved audit requests across every major certification window, working with 4+ downstream teams to meet compliance SLAs.</li>
-            <li>Managed release governance for 8+ production deployments, including change workflows, pre and post-release validation, and incident triage.</li>
+            <li>Managed 8+ production releases, coordinating ServiceNow change workflows and incident triage during certification windows, contributing to a 5-day reduction in release turnaround time.</li>
           </ul>
 
           <h4>On-Demand Certifications</h4>
@@ -201,13 +200,12 @@
           <h4>AI-assisted engineering</h4>
           <ul>
             <li>Used GitHub Copilot and Claude for code generation, requirement breakdown and edge-case analysis. A Jira MCP setup turns feature briefs into user stories, cutting sprint preparation from hours to minutes.</li>
-            <li>Raised IAM SDK test coverage from 61% to 89% in one sprint with Copilot-generated test scaffolding.</li>
-            <li>Cut runbook and API documentation turnaround from 2 weeks to same day using Claude. The IAM team adopted it as standard practice.</li>
+            <li>Raised IAM SDK test coverage from 40% to 89% in one sprint using GitHub Copilot-generated unit and integration test scaffolding.</li>
           </ul>
 
           <h4>AI-powered QA automation</h4>
           <ul>
-            <li>Designed a spec-driven QA framework with a custom AI skill built on Confluence docs and code context from 20 repositories. It generates Playwright E2E and API integration tests, replacing manual regression test writing.</li>
+            <li>Architected an agentic AI QA framework using knowledge-base retrieval and delta-scenario analysis to generate, execute, debug, and validate tests, reducing manual test-generation effort by 2.4×. Integrated MCP-powered Jira and Git workflows for remediation, defect triage, backlog creation, and PR generation; used Confluence and code context across 20 repositories to generate Playwright E2E/API tests, cutting regression time from 240 hours to 6 hours.</li>
           </ul>
         </li>
 
@@ -330,9 +328,9 @@ const skills = {
   backend: ["Spring Boot", "Spring Batch", "REST APIs", "JPA", "JDBC", "Microservices", "Kafka", "Distributed systems"],
   frontend: ["React", "HTML", "CSS"],
   aiAndAutomation: ["GitHub Copilot", "Claude API", "Jira MCP", "RAG pipelines", "Prompt engineering"],
-  qaAndTesting: ["Playwright", "Selenium", "Spec-driven AI test generation", "E2E integration testing"],
+  qaAndTesting: ["Playwright", "JUnit", "Spec-driven AI test generation", "E2E integration testing"],
   databases: ["Oracle", "MySQL", "Redis"],
-  toolsAndPlatforms: ["Dynatrace", "Splunk", "Jenkins", "CI/CD", "ServiceNow", "AWS"]
+  toolsAndPlatforms: ["Dynatrace", "Splunk", "Jira", "Confluence", "Jenkins", "CI/CD", "ServiceNow", "GAIA", "GAP"]
 };
 
 /* ============ rendering (no need to edit below) ============ */
